@@ -1,0 +1,13 @@
+body {
+    background-color: salmon;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+img{
+    height: fit-content;
+    width: fit-content;
+}
