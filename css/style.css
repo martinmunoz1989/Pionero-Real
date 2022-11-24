@@ -1,5 +1,6 @@
-body {
-    background-color: salmon;
+* {
+    margin:0;
+    border:0;
 }
 
 h1,
@@ -7,7 +8,3 @@ h2 {
     font-weight: bold;
 }
 
-img{
-    height: fit-content;
-    width: fit-content;
-}
