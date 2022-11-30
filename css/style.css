@@ -1,6 +1,9 @@
 * {
-    margin:0;
-    border:0;
+    background-color: black;
+    font-style: italic;
+    color: white;
+    margin: 0;
+    border: 0;
 }
 
 h1,
@@ -8,3 +11,42 @@ h2 {
     font-weight: bold;
 }
 
+.btn {
+    height: 40px;
+    width: 100%;
+    color: antiquewhite;
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+nav {
+    height: 100px;
+    position: sticky;
+    border: dashed white
+}
+
+#logo {
+    width: 8%;
+    border-radius: 50%;
+}
+
+#carrito {
+    height: 100px;
+}
+
+#orden{
+    border: solid white 1px;
+
+    
+    
+}
+#orden>div.ordenBody.d-flex.justify-content-center>p {
+    margin-left: 5%;
+}

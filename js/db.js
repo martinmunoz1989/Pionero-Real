@@ -2,30 +2,65 @@ const articulos = [
     {
         Id: "1",
         Industria: "Nacional",
-        articulo: "Pionero Real Azul",
-        Precio: 2200
+        descripcion: "Pionero Real Celeste",
+        Precio: 2200,
+        imagen: "./img/pionero_real_celeste.webp",
 
     },
     {
         Id: "2",
         Industria: "Nacional",
-        articulo: "Pionero Real Rojo",
-        Precio: 1500
+        descripcion: "Pionero Real Negro",
+        Precio: 1500,
+        imagen: "./img/pionero_real_negro.webp",
 
     },
     {
         Id: "3",
         Industria: "Nacional",
-        articulo: "Pionero Real Negro",
-        Precio: 1200
+        descripcion: "Pionero Real Rojo",
+        Precio: 1200,
+        imagen: "./img/pionero_real_rojo.webp",
 
     },
     {
         Id: "4",
         Industria: "Nacional",
-        articulo: "Pionero Real Celeste",
-        Precio: 1000
+        descripcion: "Pionero Real Azul",
+        Precio: 1000,
+        imagen: "./img/pionero_real_Azul.webp",
 
     },
+    {
+        Id: "5",
+        Industria: "Nacional",
+        descripcion: "Barak Blanco/Rojo",
+        Precio: 1300,
+        imagen: "./img/BarakBlancoRojo.png",
 
+    },
+    {
+        Id: "6",
+        Industria: "Nacional",
+        descripcion: "Barak Fucsia",
+        Precio: 1300,
+        imagen: "./img/BarakFucsia.png",
+
+    },
+    {
+        Id: "7",
+        Industria: "Nacional",
+        descripcion: "Barak Gris",
+        Precio: 1700,
+        imagen: "./img/BarakGris.png",
+
+    },
+    {
+        Id: "8",
+        Industria: "Nacional",
+        descripcion: "Barak Turquesa",
+        Precio: 1650,
+        imagen: "./img/BarakTurquesa.png",
+
+    },
 ]
