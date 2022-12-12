@@ -1,7 +1,7 @@
 * {
-    background-color: black;
+
     font-style: italic;
-    color: white;
+
     margin: 0;
     border: 0;
 }
@@ -22,14 +22,20 @@ h2 {
     opacity: 0.7;
 }
 
-.navbar-brand {
-    color: white !important;
+#banner-img{
+    width: 100%;
+    height: 700px;
+}
+.#nav>div {
+    background-color: white !important;
+    color: black !important;
 }
 
-nav {
+#nav {
+    width: 100%;
+    background-color: white !important;
     height: 100px;
-    position: sticky;
-    border: dashed white
+    border: dashed grey
 }
 
 #logo {
@@ -37,16 +43,17 @@ nav {
     border-radius: 50%;
 }
 
-#carrito {
-    height: 100px;
+#verCarrito {
+    height: 100%;
+    cursor: pointer;
 }
 
-#orden{
-    border: solid white 1px;
 
-    
-    
-}
 #orden>div.ordenBody.d-flex.justify-content-center>p {
     margin-left: 5%;
+}
+
+.btn-primary {
+    color: black !important;
+    background-color: white !important;
 }
