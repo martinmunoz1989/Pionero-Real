@@ -1,9 +1,15 @@
 * {
-
-    font-style: italic;
-
     margin: 0;
     border: 0;
+    color: black;
+}
+
+input {
+    color: black;
+}
+
+body, .headerButton {
+    background-color: white !important;
 }
 
 h1,
@@ -14,28 +20,27 @@ h2 {
 .btn {
     height: 40px;
     width: 100%;
-    color: antiquewhite;
-
 }
 
 .btn:hover {
     opacity: 0.7;
 }
 
-#banner-img{
-    width: 100%;
-    height: 700px;
+#banner-img {
+    height: 450px;
 }
-.#nav>div {
+
+#orden, #nav > div, #nav {
     background-color: white !important;
+}
+
+#nav > div {
     color: black !important;
 }
 
 #nav {
     width: 100%;
-    background-color: white !important;
     height: 100px;
-    border: dashed grey
 }
 
 #logo {
@@ -48,12 +53,28 @@ h2 {
     cursor: pointer;
 }
 
+#title {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: animat;
+}
+
+
+@keyframes animat {
+    0% {
+        color: rgb(215, 223, 145);
+    }
+
+    100% {
+        color: rgb(209, 152, 29);
+    }
+}
+
 
 #orden>div.ordenBody.d-flex.justify-content-center>p {
     margin-left: 5%;
 }
 
-.btn-primary {
+.card-text {
     color: black !important;
-    background-color: white !important;
 }
